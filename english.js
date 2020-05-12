@@ -218,41 +218,41 @@ const languageData = {
 
     C_INFO: (getvalueof) => `:printer: Informations about **${getvalueof}**`,
 
-    C_NAME: "**Name**",
+    C_NAME: "🎟️ Name",
 
-    C_ID: "**ID**",
+    C_ID: "<:aiedi:709513845533835285> ID",
 
-    C_TYPE: "**Type**",
+    C_TYPE: "<:hashtag:709785136601890856> Type",
 
-    C_DESC: "**Description**",
+    C_DESC: "📄 Description",
 
-    C_CATEGORIE: "**Category**",
+    C_CATEGORIE: "🗄️ Category",
+	
+    S_OWNER: "👑 Server owner",
 
-    S_OWNER: "**Server owner**",
+    C_CREATE: "🎂 Channel creation",
 
-    C_CREATE: "**Channel creation**",
+    C_CREATEC: "🎂 Category creation",
 
-    C_CREATEC: "**Category creation**",
+    LANGUAGE_UPDATED: "<:yes:625395796908572683> Bot language modified.",
 
-    LANGUAGE_UPDATED: "Bot language modified.",
+    MISSING_LANGUAGE: "<:no:625395798703603752> You must specify a valid language. (english or french)",
 
-    MISSING_LANGUAGE: "You must specify a valid language. (english or french)",
+    LANGUAGE_NO_EXIST: "<:no:625395798703603752> I don't know this language :/",
 
-    LANGUAGE_NO_EXIST: "I don't know this language :/",
-
-    ERROR: "An error occured!",
+    ERROR: "<:no:625395798703603752> An error occured!",
 
     AVATAR: (mas) => `📸 Avatar of **${mas}**`,
 
-    COOLDOWN: (time) => `You can use this command every ${time}.`,
+    COOLDOWN: (time) => `<:no:625395798703603752> You can use this command every ${time}.`,
 
     SYNTAXERR: "Syntax Error!",
 
     CALCUSE: `Syntax : \`${prefix}calc <operation>\`\nE.g. \`${prefix}calc 24/2*5+4-8\``,
 
-    CALCERR: (question) => `Your operation (${question}) couldn't be solved!`,
+    CALCERR: (question) => `<:no:625395798703603752> Your operation (${question}) couldn't be solved!`,
 
-    CALCERRTITLE: (question) => "Math Error!",
+    CALCERRTITLE: (question) => "<:no:625395798703603752> Math Error!",
 
     AUTOROLEERR: `Syntax : \`${prefix}autorole <on/off> <@role/role>\`\nE.g. \`${prefix}autorole on Uty'Lisateur\``,
 
@@ -264,7 +264,7 @@ const languageData = {
 
     HASTEBIN_USE: `Syntax : \`${prefix}hastebin <your code>\`\nE.g. \`${prefix}hastebin console.log('Hello World!')\``,
 
-    HASTEBIN_SUCCESS: (mau) => `Link has been sent to ${mau}`,
+    HASTEBIN_SUCCESS: (mau) => `<:yes:625395796908572683> Link has been sent to ${mau}`,
 
     SHORTEN_USE: `Syntax : \`${prefix}shorten <your link>\`\nE.g. \`${prefix}shorten https://uty-bot.xyz\``,
 

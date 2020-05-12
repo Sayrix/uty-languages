@@ -42,7 +42,6 @@ const languageData = {
         `Search`,
         `Creation`,
         `Description`,
-        `Duration`,
         `**and more...**`
     ],
     PLAY_SUCCESS: (trdfg) => `🎵 \`${trdfg}\` is now playing...`,

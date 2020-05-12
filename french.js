@@ -212,47 +212,49 @@ const languageData = {
         `🗂️ Lib`
     ],
 
+    IB_FOOTER: "Serveur discord : https://discord.gg/FmyzBgj",
+
     INVITE_TITLE: "Uty sur votre Serveur",
 
     C_ANY: "Aucune",
 
     C_INFO: (getvalueof) => `:printer: Informations sur **${getvalueof}**`,
 
-    C_NAME: "**Nom**",
+    C_NAME: "🎟️ Nom",
 
-    C_ID: "**ID**",
+    C_ID: "<:aiedi:709513845533835285> ID",
 
-    C_TYPE: "**Type**",
+    C_TYPE: "<:hashtag:709785136601890856> Type",
 
-    C_DESC: "**Description**",
+    C_DESC: "📄 Description",
 
-    C_CATEGORIE: "**Catégorie**",
+    C_CATEGORIE: "🗄️ Catégorie",
 
-    S_OWNER: "**Propiétaire du serveur**",
+    S_OWNER: "👑 Propiétaire du serveur",
 
-    C_CREATE: "**Création du channel**",
+    C_CREATE: "🎂 Création du channel",
 
-    C_CREATEC: "**Création de la catégorie**",
+    C_CREATEC: "🎂 Création de la catégorie",
 
-    LANGUAGE_UPDATED: "Langue du bot mise à jour",
+    LANGUAGE_UPDATED: "<:yes:625395796908572683> Langue du bot mise à jour",
 
-    MISSING_LANGUAGE: (rlsoz) => `Vous devez préciser une langue valide! (${rlsoz})`,
+    MISSING_LANGUAGE: (rlsoz) => `<:no:625395798703603752> Vous devez préciser une langue valide! (${rlsoz})`,
 
-    LANGUAGE_NO_EXIST: "Cette langue n'est pas connue de Uty.",
+    LANGUAGE_NO_EXIST: "<:no:625395798703603752> Cette langue n'est pas connue de Uty.",
 
     ERROR: "<:no:625395798703603752> Une erreur s'est produite",
 
     AVATAR: (mas) => `📸 Avatar de **${mas}**`,
 
-    COOLDOWN: (time) => `Vous pouvez utiliser cette commande seulement toutes les ${time}.`,
+    COOLDOWN: (time) => `<:no:625395798703603752> Vous pouvez utiliser cette commande seulement toutes les ${time}.`,
 
     SYNTAXERR: "Erreur de Syntaxe!",
 
     CALCUSE: `Syntaxe : \`${prefix}calc <Votre opération>\`\nExemple : \`${prefix}calc 24/2*5+4-8\``,
 
-    CALCERR: (question) => `Votre opération (${question}) est impossible à effectuer!`,
+    CALCERR: (question) => `<:no:625395798703603752> Votre opération (${question}) est impossible à effectuer!`,
 
-    CALCERRTITLE: (question) => "Erreur mathématique!",
+    CALCERRTITLE: (question) => "<:no:625395798703603752> Erreur mathématique!",
 
     AUTOROLEERR: `Syntaxe : \`${prefix}autorole <on/off> <@role/role>\`\nExemple : \`${prefix}autorole on Uty'Lisateur\``,
 
@@ -264,7 +266,7 @@ const languageData = {
 
     HASTEBIN_USE: `Syntaxe : \`${prefix}hastebin <Votre code>\`\nExemple : \`${prefix}hastebin console.log('Hello World!')\``,
 
-    HASTEBIN_SUCCESS: (mau) => `Le lien a été envoyé à ${mau}`,
+    HASTEBIN_SUCCESS: (mau) => `<:yes:625395796908572683> Le lien a été envoyé à ${mau}`,
 
     SHORTEN_USE: `Syntaxe : \`${prefix}shorten <Votre lien>\`\nExemple : \`${prefix}shorten https://uty-bot.xyz\``,
 
@@ -347,7 +349,7 @@ const languageData = {
 			USERINFO_ERR_ID: (id) => `<:no:625395798703603752> Aucun utilisateur sur Discord ne possède l'ID \`${id}\` !`,
 			USERINFO_FIELDS: [
 				"👤 Pseudo",
-				`<:__:708744869002346557> Discriminateur`,
+				`<:hashtag:709785136601890856> Discriminateur`,
 				`🤖 Robot`,
 				`🎂 Création`,
 				`🎮 Jeu`,

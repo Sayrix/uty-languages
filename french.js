@@ -58,7 +58,6 @@ const languageData = {
         `Recherche`,
         `Création`,
         `Description`,
-        `Durée`, // à patch plus tard
         `**et plus...**`
     ],
     PLAY_SUCCESS: (trdfg) => `🎵 \`${trdfg}\` en cours de lecture...`,

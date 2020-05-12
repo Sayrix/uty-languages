@@ -217,7 +217,7 @@ const languageData = {
 
     C_ANY: "Nothing",
 
-    C_INFO: (getvalueof) => `:printer: Informations on **${getvalueof}**`,
+    C_INFO: (getvalueof) => `:printer: Informations about **${getvalueof}**`,
 
     C_NAME: "**Name**",
 
@@ -277,7 +277,7 @@ const languageData = {
 
     BAN_USE: `Syntax : \`${prefix}ban <@user> <reason>\`\nE.g. \`${prefix}ban @Enertix Le Vrai#0988 Raid\``,
 
-    BAN_ERROR_ONE: "Please give Uty the required permissions in order to ban someone.",
+    BAN_ERROR_ONE: "Please give to Uty the required permissions in order to ban someone.",
 
     BAN_ERROR_TWO: (iope) => `User (${iope}) isn't a member of your server.`,
 
@@ -337,7 +337,7 @@ const languageData = {
         YES: "Yes",
         NO: "No",
         STATUS: {
-            "dnd": "<:red:535095760379838495> Do not dissturb",
+            "dnd": "<:red:535095760379838495> Do not disturb",
             "idle": "<:Idle:535095736761843712> AFK (idle)",
             "offline": "<:Invisible:535095544226381864> Offline",
             "online": "<:On:535095561968418838> Online"
@@ -359,7 +359,7 @@ const languageData = {
                 `♥️ Shared servers with Uty`,
                 `<:ID:708755663760785501> ID`
 			],
-			USERINFO_NO_GAME: "NO game",
+			USERINFO_NO_GAME: "No game",
             USERINFO_NO_NICKNAME: "No nickname",
             
             SERVERINFO_HEADINGS:[
